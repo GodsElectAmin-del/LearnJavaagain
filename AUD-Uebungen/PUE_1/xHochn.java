@@ -2,25 +2,30 @@ package PUE_1;
 
 public class xHochn {
     public static void main(String[] args) {
-        int result;
-        int xi = 3;
-        int xj;
-        int PlatztHalter;
+        int n = 5;
+        int counter1 = 0;
+        int counter2 = 0;
+        int result = 1;
+        // int resultLoop2;
+        int x = 6;
+        int xFixed;
+        result = x;
+        xFixed = x;
 
-        xj = xi;
-        PlatztHalter = xi;
-        int n = 4;
-        while (n >= 1) {
-            result = xi;
-            n--;
-            xj = PlatztHalter;
-            while (xj >= 1) {
-                xi = result + result;
-                xj--;
+        while (counter1 <= n - 1) {
+            result = x;
+            counter1 = counter1 + 1;
+            System.out.println("Current result: " + result + " Current Counter1: " + counter1);
+            x = 0;
+            counter2 = 0;
+            while (counter2 <= xFixed - 1) {
+                x = x + result;
+                counter2 = counter2 + 1;
+                System.out.println("Current x: " + x + " Current Counter2: " + counter2);
             }
         }
 
-        System.out.println("Das ist der finale wert " + xi);
+        System.out.println("Das ist der finale wert " + result);
 
     }
 
