@@ -8,10 +8,11 @@ public class BookList {
         this.title = title;
     }
 
-    void MarkDone() {
+    public void MarkDone() {
         this.read = true;
     }
 
+    @Override
     public String toString() {
         return id + " " + title + " [" + (read ? "x" : " ") + "]";
     }
