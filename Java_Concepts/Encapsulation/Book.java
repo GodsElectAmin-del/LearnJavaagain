@@ -19,4 +19,12 @@ public class Book {
         return this.author;
     }
 
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public Integer getId() {
+        return this.id;
+    }
+
 }
