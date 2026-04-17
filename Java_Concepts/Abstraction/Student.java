@@ -5,8 +5,6 @@ public abstract class Student {
         System.out.println("Max Mustermann");
     }
 
-    public abstract void Matrikelnummer(){
-
-    }
+    public abstract void Matrikelnummer();
 
 }
